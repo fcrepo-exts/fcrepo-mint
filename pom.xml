@@ -11,6 +11,7 @@
   <packaging>bundle</packaging>
 
   <properties>
+    <fcrepo.version>4.4.1-SNAPSHOT</fcrepo.version>
     <osgi.import.packages>
       org.fcrepo.metrics,
       org.fcrepo.kernel.api.*,
@@ -35,13 +36,13 @@
     <dependency>
       <groupId>org.fcrepo</groupId>
       <artifactId>fcrepo-kernel-api</artifactId>
-      <version>${project.version}</version>
+      <version>${fcrepo.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.fcrepo</groupId>
       <artifactId>fcrepo-metrics</artifactId>
-      <version>${project.version}</version>
+      <version>${fcrepo.version}</version>
     </dependency>
 
     <dependency>
@@ -130,4 +131,25 @@
       </plugin>
     </plugins>
   </build>
+
+  <scm>
+    <connection>scm:git:git://github.com/fcrepo4-exts/fcrepo-mint.git</connection>
+    <developerConnection>scm:git:git@github.com:fcrepo4-exts/fcrepo-mint.git</developerConnection>
+    <url>https://github.com/fcrepo4-exts/fcrepo-mint</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <repositories>
+    <repository>
+      <id>snapshots-repo</id>
+      <url>http://oss.sonatype.org/content/repositories/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
+
 </project>
