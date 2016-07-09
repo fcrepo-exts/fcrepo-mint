@@ -6,4 +6,5 @@ release.properties
 ActiveMQ/
 fcrepo4-data/
 *~
-
+.idea/
+*.iml
