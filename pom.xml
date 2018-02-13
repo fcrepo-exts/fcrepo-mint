@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.fcrepo</groupId>
     <artifactId>fcrepo</artifactId>
-    <version>4.7.5</version>
+    <version>4.7.6-SNAPSHOT</version>
   </parent>
   <artifactId>fcrepo-mint</artifactId>
   <name>Fedora Repository Minter Module</name>
@@ -35,13 +35,13 @@
     <dependency>
       <groupId>org.fcrepo</groupId>
       <artifactId>fcrepo-kernel-api</artifactId>
-      <version>4.7.5</version>
+      <version>4.7.6-SNAPSHOT</version>
     </dependency>
 
     <dependency>
       <groupId>org.fcrepo</groupId>
       <artifactId>fcrepo-metrics</artifactId>
-      <version>4.7.5</version>
+      <version>4.7.6-SNAPSHOT</version>
     </dependency>
 
     <dependency>
@@ -135,7 +135,7 @@
     <connection>scm:git:git://github.com/fcrepo4-exts/fcrepo-mint.git</connection>
     <developerConnection>scm:git:git@github.com:fcrepo4-exts/fcrepo-mint.git</developerConnection>
     <url>https://github.com/fcrepo4-exts/fcrepo-mint</url>
-    <tag>fcrepo-mint-4.7.5</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <repositories>
