@@ -1,13 +1,13 @@
 # Fedora 4 URI minter module
 
-[![Build Status](https://travis-ci.org/fcrepo4-exts/fcrepo-mint.png?branch=master)](https://travis-ci.org/fcrepo4-exts/fcrepo-mint)
+[![Build Status](https://travis-ci.org/fcrepo-exts/fcrepo-mint.png?branch=master)](https://travis-ci.org/fcrepo-exts/fcrepo-mint)
 
-The `fcrepo-mint` module provides extension features to a [Fedora 4](https://github.com/fcrepo4/fcrepo4) repository. In particular,
+The `fcrepo-mint` module provides extension features to a [Fedora 4](https://github.com/fcrepo/fcrepo) repository. In particular,
 it allows users to provide their own URI minting behavior. The default fedora4 minter creates hierarchical paths based on UUIDs,
 but this module allows repository administrators to override that behavior. This implements a configurable hierarchical minter as well
 as a connector to an external web service.
 
-To use this module in the context of [fcrepo-webapp-plus](https://github.com/fcrepo4-exts/fcrepo-webapp-plus), an administrator would need
+To use this module in the context of [fcrepo-webapp-plus](https://github.com/fcrepo-exts/fcrepo-webapp-plus), an administrator would need
 to update the Spring configuration to inject this implementation.
 
 For example (in `./spring/rest.xml`):

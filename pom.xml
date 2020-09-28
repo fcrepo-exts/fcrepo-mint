@@ -132,9 +132,9 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://github.com/fcrepo4-exts/fcrepo-mint.git</connection>
-    <developerConnection>scm:git:git@github.com:fcrepo4-exts/fcrepo-mint.git</developerConnection>
-    <url>https://github.com/fcrepo4-exts/fcrepo-mint</url>
+    <connection>scm:git:git://github.com/fcrepo-exts/fcrepo-mint.git</connection>
+    <developerConnection>scm:git:git@github.com:fcrepo-exts/fcrepo-mint.git</developerConnection>
+    <url>https://github.com/fcrepo-exts/fcrepo-mint</url>
     <tag>HEAD</tag>
   </scm>
 
